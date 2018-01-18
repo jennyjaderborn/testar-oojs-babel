@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.fullscreen-container {
+    background: snow;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.circular-button {
+    opacity: 0.7;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: 20px 10px;
+    background-size: contain;
+    box-shadow: 0px 5px 10px #a0a0a0
+}
+.circular-button:hover {
+    opacity: 1;
+}
+
+.texten {
+    font-weight: bold;
+}
